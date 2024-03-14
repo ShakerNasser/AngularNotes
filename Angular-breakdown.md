@@ -9,6 +9,22 @@ Templates in Angular define the user interface of the application using HTML wit
 ## Components 
 
 Components are the building blocks of an Angular application. Each component sum up a portion of the UI and its logic. Components consist of a TypeScript class that defines the components behavior and properties, along with an HTML template that defines its view.
+
+### Create a component 
+
+Use command: 
+
+```bash
+ng generate component pages/home 
+
+eller:
+
+n g c pages/prodcut 
+
+```
+
+NOTE!!! Pages is like resoruces in Laravel. 
+
  
 ## Services 
 
@@ -25,4 +41,24 @@ Modules doenst exist in the latest v17 in Angular.
 ----------------------
 
 ## Decorator pattern 
+
+
+## comands 
+
+Serve and open in broswer: 
+
+```bash
+ng serve -o 
+
+```
+
+## Data binding 
+
+Interpolation 1/2 : 
+
+![From component to DOM](assets/image.png)
+
+Propterty binding 2/2: 
+
+![property bidning](assets/Prop.png)
 
